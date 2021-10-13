@@ -10,17 +10,6 @@ body {
     margin: auto;
 }
 
-.name {
-    font-size: 3em;
-    font-weight: 800;
-    margin-bottom: 1em;
-}
-
-#name p {
-    margin-left: 0;
-    padding-left: 0;
-}
-
 .sidebar {
     height: 600px;
     width: 250px;
@@ -40,21 +29,13 @@ body {
     margin-bottom: 0.5em;
     text-decoration: none;
 }
-
 .sidebar li a {
     text-decoration: none;
 }
-    
-    
-/* .body-text {
-    margin-right: 150px;
-    font-size: 18px;
-} */
 
 .menu li {
     margin-bottom: 1em;
 }
-
 
 .menu li a {
     list-style: none;
@@ -62,10 +43,19 @@ body {
 } 
 
 section div {
-    /* padding-left: 1em; */
     margin-bottom: 4em;
     margin-left: 350px;
+}
 
+#name {
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+#name p {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 section h1 {
