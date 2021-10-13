@@ -10,7 +10,6 @@ body {
     margin: auto;
 }
 
-
 .name {
     font-size: 3em;
     font-weight: 800;
@@ -41,6 +40,7 @@ body {
     margin-bottom: 0.5em;
     text-decoration: none;
 }
+
 .sidebar li a {
     text-decoration: none;
 }
@@ -60,12 +60,6 @@ body {
     list-style: none;
     text-decoration: none;
 } 
-
-
-/* section {
-    width: 100%;
-    background-color: beige;
-} */
 
 section div {
     /* padding-left: 1em; */
@@ -87,22 +81,16 @@ section li {
 
 }
 
-
-/* #work ul > :first-child {
-    font-weight: 600;
-    list-style-type: disc;
-  } */
-
-  #work ul > li li {
+#work ul > li li {
     font-weight: 600;
     list-style-type: disc;
     background-color: darkmagenta;
-  }
+}
 
 
-  #work ul li ul {
+#work ul li ul {
     font-weight: 600;
     list-style-type: none;
     background-color: darkmagenta;
 
-  }
+}
