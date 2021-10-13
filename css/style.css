@@ -1,0 +1,105 @@
+body, p, a, div, li {
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+    min-width: 650px;
+    width: 60%;
+    margin: auto;
+}
+
+
+.name {
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+
+.sidebar {
+    height: 600px;
+    width: 250px;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    padding-top: 40px;
+    /* background-color: lightblue; */
+    /* border: 1px solid black; */
+    font-size: 1.2em;
+    }
+    
+.sidebar li {
+    padding: 8px;
+    font-size: 24px;
+    list-style: none;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+.sidebar li a {
+    text-decoration: none;
+}
+    
+    
+/* .body-text {
+    margin-right: 150px;
+    font-size: 18px;
+} */
+
+.menu li {
+    margin-bottom: 1em;
+}
+
+
+.menu li a {
+    list-style: none;
+    text-decoration: none;
+} 
+
+
+/* section {
+    width: 100%;
+    background-color: beige;
+} */
+
+section div {
+    /* padding-left: 1em; */
+    margin-bottom: 4em;
+    margin-left: 350px;
+
+}
+
+section h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+section p, 
+section li {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0.4em;
+
+}
+
+
+/* #work ul > :first-child {
+    font-weight: 600;
+    list-style-type: disc;
+  } */
+
+  #work ul > li li {
+    font-weight: 600;
+    list-style-type: disc;
+    background-color: darkmagenta;
+  }
+
+
+  #work ul li ul {
+    font-weight: 600;
+    list-style-type: none;
+    background-color: darkmagenta;
+
+  }
+
