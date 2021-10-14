@@ -5,57 +5,80 @@ body, p, a, div, li {
 
 body {
     background-color: gainsboro;
-    min-width: 650px;
+    min-width: 800px;
     width: 60%;
+    margin: 0;
+    padding: 0;
     margin: auto;
 }
 
+header {
+    width: 60%;
+    min-width: 800px;
+    height: 240px;
+    background-color: rgb(30, 30, 30);
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.image-box {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.image-box img {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+#name {
+    color: white;
+    font-size: 4.5em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .sidebar {
-    height: 600px;
-    width: 250px;
+    height: 100%;
+    width: 200px;
     position: fixed;
-    top: 25%;
-    left: 20%;
-    padding-top: 40px;
-    background-color: lightblue;
-    border: 1px solid black;
-    font-size: 1.2em;
-    }
-    
+    top: 230px;
+    font-size: 1.4em;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.sidebar ul {
+    margin: 0; 
+    padding: 0; 
+    margin-top: 50px;
+    list-style-type: none;
+}
+
 .sidebar li {
-    padding: 8px;
-    font-size: 24px;
-    list-style: none;
-    margin-bottom: 0.5em;
-    text-decoration: none;
+    color: lightcoral;
+    padding-bottom: 1.2em;
+
 }
 .sidebar li a {
     text-decoration: none;
 }
 
-.menu li {
-    margin-bottom: 1em;
-}
 
-.menu li a {
-    list-style: none;
-    text-decoration: none;
-} 
+section {
+    float: right;
+    width: 600px;
+    margin-top: 20px;
+}
+   
 
 section div {
     margin-bottom: 4em;
-    margin-left: 350px;
-}
-
-#name {
-    font-size: 3em;
-    font-weight: 800;
-    margin-bottom: 1em;
-}
-
-#name p {
-    margin-left: 0;
-    padding-left: 0;
 }
 
 section h1 {
