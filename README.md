@@ -1,2 +1,2 @@
 # myCV
-My CV on github.com
+https://milangrahovac.github.io/my-cv/
