@@ -14,7 +14,7 @@ body {
 
 header {
     width: 60%;
-    min-width: 800px;
+    min-width: 1000px;
     height: 240px;
     background-color: rgb(30, 30, 30);
     z-index: 1;
