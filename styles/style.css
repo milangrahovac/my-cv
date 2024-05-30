@@ -10,7 +10,8 @@ h1 {
 body {
     /* background-color: rgb(255, 255, 255); */
     background-color: #2c8250;
-    background: linear-gradient(to right, #2c8250 0%, #3eb164 100%);
+    /* background: linear-gradient(to right, #2c8250 0%, #3eb164 100%); */
+    background-image: linear-gradient(to right top, #051937, #003f64, #006770, #008c53, #7aa815);    
     min-width: 800px; 
     width: 80%;
     margin: 0;
